@@ -186,6 +186,7 @@ body {
 }*/
 .row.bottomPanel {
 	margin-top: 100px;
+	margin-bottom: 100px;
 	background-color: #242A31;
 	border-top: 3px solid rgb(74, 74, 74);
 }
@@ -204,6 +205,21 @@ body {
 	font-weight: 100;
 }
 
+/*FOOTER ARROW*/
+
+.footer {
+	bottom: 0;
+	text-align: center;
+}
+.arrow-up {
+	margin: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left:  solid transparent;
+	border-right: 10% solid transparent;
+	border-bottom: 80% solid black;
+}
 
 /*jQuery Specific Classes*/
 
