@@ -138,7 +138,7 @@ body {
 
 /*MIDDLE PANEL FOR EDUCATION INFO*/
 
-.midPanel {
+.row.midPanel {
 	position: relative;
 	margin-top: 100px;
 	z-index: -1;
@@ -158,11 +158,18 @@ body {
 	color: white;
 	font-size: 2em;
 }
+#education {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	font-size: 3em;
+	color: white;
+	font-weight: 100;
+}
 
 
 /*BOTTOM PANEL FOR EMPLOYMENT INFO*/
 
-.bottomPanel {
+.row.bottomPanel {
 	position: relative;
 	margin-top: 30px;
 	margin-bottom: 100px;
@@ -178,9 +185,12 @@ body {
 	font-size: 5em;
 	font-weight: 100;
 }
-.bottomPanel .employment {
+#employment {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	font-size: 3em;
 	color: white;
-	font-size: 2em;
+	font-weight: 100;
 }
 
 
