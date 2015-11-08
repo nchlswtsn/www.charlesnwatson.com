@@ -138,14 +138,20 @@ body {
 
 /*MIDDLE PANEL FOR EDUCATION INFO*/
 
-.row.midPanel {
+/*.row.midPanel {
 	position: relative;
 	margin-top: 100px;
 	z-index: -1;
 	height: 100vh;
 	width: 100%;
 	background-color: #242A31;
+}*/
+.row.midPanel {
+	margin-top: 100px;
+	background-color: #242A31;
+	border-top: 3px solid rgb(74, 74, 74);
 }
+
 .midPanel p {
 	margin-top: 0;
 	text-align: center;
@@ -154,10 +160,10 @@ body {
 	font-size: 5em;
 	font-weight: 100;
 }
-.midPanel .education {
+/*.midPanel .education {
 	color: white;
 	font-size: 2em;
-}
+}*/
 #education {
 	margin-top: 5%;
 	margin-bottom: 10%;
@@ -169,7 +175,7 @@ body {
 
 /*BOTTOM PANEL FOR EMPLOYMENT INFO*/
 
-.row.bottomPanel {
+/*.row.bottomPanel {
 	position: relative;
 	margin-top: 30px;
 	margin-bottom: 100px;
@@ -177,6 +183,11 @@ body {
 	height: 100vh;
 	width: 100%;
 	background-color: #242A31;
+}*/
+.row.bottomPanel {
+	margin-top: 100px;
+	background-color: #242A31;
+	border-top: 3px solid rgb(74, 74, 74);
 }
 .bottomPanel p {
 	text-align: center;
