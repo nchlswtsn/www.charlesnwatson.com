@@ -92,28 +92,23 @@ body {
 }
 
 
-/*PROJECT PANEL UNDERNEATH SUMMAR PANEL*/
+/*PROJECT PANEL UNDERNEATH SUMMARY PANEL*/
 
-.topPanel {
+.row.topPanel {
 	position: relative;
 	margin-top: 100px;
-	/*z-index: -1;*/
-	/*height: 110vh;*/
-	/*width: 100%;*/
 	background-color: #242A31;
 	border-top: 3px solid rgb(74, 74, 74);
 }
 .project img {
 	width: 100%;
-	/*margin: 0;*/
-	/*padding: 0;*/
 }
 .project {
 	margin-top: 20px;
+	margin-bottom: 60px;
 	border: 1px solid black;
 	border-radius: 3px;
 	background-color: black;
-	/*position: absolute;*/
 }
 .projectLink {
 	background-color: white;
@@ -123,7 +118,6 @@ body {
 	border-bottom-right-radius: 3px;
 }
 .projectTitle {
-	/*position: relative;*/
 	text-align: center;
 	bottom: 0;
 	width: 100%;
@@ -146,7 +140,7 @@ body {
 
 .midPanel {
 	position: relative;
-	margin-top: 30px;
+	margin-top: 100px;
 	z-index: -1;
 	height: 100vh;
 	width: 100%;
