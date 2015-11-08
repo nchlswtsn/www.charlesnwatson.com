@@ -138,14 +138,20 @@ body {
 
 /*MIDDLE PANEL FOR EDUCATION INFO*/
 
-.midPanel {
+/*.row.midPanel {
 	position: relative;
 	margin-top: 100px;
 	z-index: -1;
 	height: 100vh;
 	width: 100%;
 	background-color: #242A31;
+}*/
+.row.midPanel {
+	margin-top: 100px;
+	background-color: #242A31;
+	border-top: 3px solid rgb(74, 74, 74);
 }
+
 .midPanel p {
 	margin-top: 0;
 	text-align: center;
@@ -154,15 +160,22 @@ body {
 	font-size: 5em;
 	font-weight: 100;
 }
-.midPanel .education {
+/*.midPanel .education {
 	color: white;
 	font-size: 2em;
+}*/
+#education {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	font-size: 3em;
+	color: white;
+	font-weight: 100;
 }
 
 
 /*BOTTOM PANEL FOR EMPLOYMENT INFO*/
 
-.bottomPanel {
+/*.row.bottomPanel {
 	position: relative;
 	margin-top: 30px;
 	margin-bottom: 100px;
@@ -170,6 +183,12 @@ body {
 	height: 100vh;
 	width: 100%;
 	background-color: #242A31;
+}*/
+.row.bottomPanel {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #242A31;
+	border-top: 3px solid rgb(74, 74, 74);
 }
 .bottomPanel p {
 	text-align: center;
@@ -178,11 +197,29 @@ body {
 	font-size: 5em;
 	font-weight: 100;
 }
-.bottomPanel .employment {
+#employment {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	font-size: 3em;
 	color: white;
-	font-size: 2em;
+	font-weight: 100;
 }
 
+/*FOOTER ARROW*/
+
+.footer {
+	bottom: 0;
+	text-align: center;
+}
+.arrow-up {
+	margin: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left:  solid transparent;
+	border-right: 10% solid transparent;
+	border-bottom: 80% solid black;
+}
 
 /*jQuery Specific Classes*/
 
