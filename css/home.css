@@ -8,15 +8,30 @@ body {
 	/*z-index: -2;*/
 	/*width: 100%;*/
 }
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
 .container-fluid {
 	padding: 0;
 }
+.col-md-12 {
+	text-align: center;
+}
+.col-md-12 h1 {
+	font-size: 10em;
+	font-weight: 100;
+	color: #242A31;
+}
 
 
-/*PROFILE IMAGE*/
+					/*TOP PANEL FOR SUMMARY INFO*/
+
+
+						/*PROFILE IMAGE*/
 
 .mugShot {
-	position: relative;
+	/*position: relative;*/
 	border-radius: 50%;
 	border: 3px solid rgb(74, 74, 74);
 	width: 150px;
@@ -28,10 +43,8 @@ body {
 	transform: scale(2, 2);
 }
 .row.mugShotContainer {
-	/*width: 100%;*/
+	margin-top: -50px;
 	text-align: center;
-	margin-top: 78vh;
-	/*z-index: 1;*/
 }
 /*.mugShotContainer {
 	width: 100%;
@@ -41,8 +54,8 @@ body {
 }*/
 
 
+							/*SUMMARY TEXT CONTENT*/
 
-/*TOP PANEL FOR SUMMARY INFO*/
 
 /*.summaryPanel {
 	position: relative;
@@ -56,25 +69,21 @@ body {
 }*/
 
 .row.summaryPanel {
-	/*position: relative;*/
-	/*margin-top: -70px;*/
-	/*width: 100%;*/
+	margin-top: 55vh;
 	background-color: #242A31;
 	border-top: 3px solid rgb(74, 74, 74);
 }
 
-.summaryPanel #underMugshot {
+.row #summaryTitle {
 	text-align: center;
-	margin-top: 80px;
-	margin-bottom: 450px;
+	/*margin-top: 80px;*/
+	/*margin-bottom: 450px;*/
 	font-family: 'Avenir', Arial, sans-serif;
 	color: white;
 	font-size: 5em;
 	font-weight: 100;
 }
 #summary {
-	bottom: 0;
-	position: absolute;
 	margin-top: 5%;
 	margin-bottom: 10%;
 	font-size: 3em;
@@ -90,7 +99,7 @@ body {
 	margin-top: 100px;
 	/*z-index: -1;*/
 	/*height: 110vh;*/
-	width: 100%;
+	/*width: 100%;*/
 	background-color: #242A31;
 	border-top: 3px solid rgb(74, 74, 74);
 }
