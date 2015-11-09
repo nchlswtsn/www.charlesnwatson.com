@@ -38,6 +38,9 @@ body {
 	font-size: 1em;
 	color: black;
 }
+#links a:hover {
+	cursor: pointer;
+}
 #links p {
 	font-size: 2em;
 	font-weight: 200;
