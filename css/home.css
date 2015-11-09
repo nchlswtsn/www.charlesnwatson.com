@@ -1,12 +1,9 @@
 body {
-	/*position: relative;*/
 	background-image: url(../images/trees.jpeg);
 	background-color: #D7DEE2;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	/*z-index: -2;*/
-	/*width: 100%;*/
 }
 .row {
 	margin-right: 0;
@@ -18,20 +15,37 @@ body {
 .col-md-12 {
 	text-align: center;
 }
+
+/*HEADER TITLE CONTENT*/
+
 .col-md-12 h1 {
 	font-size: 10em;
 	font-weight: 100;
 	color: #242A31;
 }
 
+/*TOP PANEL FOR SUMMARY INFO*/
 
-					/*TOP PANEL FOR SUMMARY INFO*/
+/*LINKS BAR*/
 
+#links {
+	text-align: center;
+	/*background: linear-gradient(transparent, white)*/
+}
+#links a {
+	font-family: 'Avenir', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	color: black;
+}
+#links p {
+	font-size: 2em;
+	font-weight: 200;
+}
 
-						/*PROFILE IMAGE*/
+/*PROFILE IMAGE*/
 
 .mugShot {
-	/*position: relative;*/
 	border-radius: 50%;
 	border: 3px solid rgb(74, 74, 74);
 	width: 150px;
@@ -43,41 +57,19 @@ body {
 	transform: scale(2, 2);
 }
 .row.mugShotContainer {
-	margin-top: -50px;
+	margin-top: -60px;
 	text-align: center;
 }
-/*.mugShotContainer {
-	width: 100%;
-	text-align: center;
-	margin-top: 78vh;
-	/ z-index: 1; /
-}*/
 
-
-							/*SUMMARY TEXT CONTENT*/
-
-
-/*.summaryPanel {
-	position: relative;
-	margin-top: -70px;
-	/*top: 90vh;*/
-	/*z-index: -1;*/
-	/*height: 100vh; /
-	width: 100%;
-	background-color: #242A31;
-	border-top: 3px solid rgb(74, 74, 74);
-}*/
+/*SUMMARY TEXT CONTENT*/
 
 .row.summaryPanel {
-	margin-top: 55vh;
+	margin-top: 50vh;
 	background-color: #242A31;
 	border-top: 3px solid rgb(74, 74, 74);
 }
-
 .row #summaryTitle {
 	text-align: center;
-	/*margin-top: 80px;*/
-	/*margin-bottom: 450px;*/
 	font-family: 'Avenir', Arial, sans-serif;
 	color: white;
 	font-size: 5em;
@@ -86,11 +78,10 @@ body {
 #summary {
 	margin-top: 5%;
 	margin-bottom: 10%;
-	font-size: 3em;
-	color: white;
+	font-size: 2.5em;
 	font-weight: 100;
+	color: white;
 }
-
 
 /*PROJECT PANEL UNDERNEATH SUMMARY PANEL*/
 
@@ -135,23 +126,13 @@ body {
 	height: 100%;
 }
 
-
 /*MIDDLE PANEL FOR EDUCATION INFO*/
 
-/*.row.midPanel {
-	position: relative;
-	margin-top: 100px;
-	z-index: -1;
-	height: 100vh;
-	width: 100%;
-	background-color: #242A31;
-}*/
 .row.midPanel {
 	margin-top: 100px;
 	background-color: #242A31;
 	border-top: 3px solid rgb(74, 74, 74);
 }
-
 .midPanel p {
 	margin-top: 0;
 	text-align: center;
@@ -160,30 +141,16 @@ body {
 	font-size: 5em;
 	font-weight: 100;
 }
-/*.midPanel .education {
-	color: white;
-	font-size: 2em;
-}*/
 #education {
 	margin-top: 5%;
 	margin-bottom: 10%;
-	font-size: 3em;
-	color: white;
+	font-size: 2.5em;
 	font-weight: 100;
+	color: white;
 }
-
 
 /*BOTTOM PANEL FOR EMPLOYMENT INFO*/
 
-/*.row.bottomPanel {
-	position: relative;
-	margin-top: 30px;
-	margin-bottom: 100px;
-	z-index: -1;
-	height: 100vh;
-	width: 100%;
-	background-color: #242A31;
-}*/
 .row.bottomPanel {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -200,25 +167,9 @@ body {
 #employment {
 	margin-top: 5%;
 	margin-bottom: 10%;
-	font-size: 3em;
-	color: white;
+	font-size: 2.5em;
 	font-weight: 100;
-}
-
-/*FOOTER ARROW*/
-
-.footer {
-	bottom: 0;
-	text-align: center;
-}
-.arrow-up {
-	margin: 0;
-	bottom: 0;
-	width: 0;
-	height: 0;
-	border-left:  solid transparent;
-	border-right: 10% solid transparent;
-	border-bottom: 80% solid black;
+	color: white;
 }
 
 /*jQuery Specific Classes*/
