@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name=viewport content="width=device-width, initial-scale=1">
-  <link rel="browser tab icon" sizes="16x16" href="images/favicon.ico" />
+  <link rel="browser tab icon" sizes="16x16" href="images/favicon.png" />
   <title>Charles Watson</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/home.css">
@@ -29,7 +29,7 @@
               <a target="_blank" href="http://www.twitter.com/_CharlesWatson">Twitter</a>
             </div>
             <div class="col-md-2">
-              <a target="_blank" href="http://www.linkedin.com/watsoncn">Contact Info</a>
+              <a target="_blank" data-toggle="modal" data-target="#contactModal">Contact Info</a>
             </div>
             <div class="col-md-2">
               <a target="_blank" href="https://www.linkedin.com/in/watsoncn">Linkedin</a>
@@ -193,26 +193,28 @@
         </div>
       </div>
     </div>
+</div>
 
-    <!-- FOOTER -->
-    <!-- <div class="footer">
-    <div class="row">
-    <div class="col-md-3">
-    <a href="http://www.github.com/nchlswtsn">Github</a>
+<!-- Modal -->
+
+<div id="contactModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Contact and General Information</h4>
+      </div>
+      <div class="modal-body">
+        <p>Phone: (415) 944-9856</p>
+        <p>Email: charlesnwatson@gmail.com</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
   </div>
-  <div class="col-md-3">
-  <a href="http://www.twitter.com/_CharlesWatson">Twitter</a>
 </div>
-<div class="col-md-3">
-<a href="http://www.linkedin.com/watsoncn">Linkedin</a>
-</div>
-<div class="col-md-3">
-<a href="http://www.blog.charlesnwatson.com">Blog</a>
-</div>
-</div>
-</div>
-</div> -->
-</div>
+
 <!-- DEPENDENCIES -->
 
 <script src="javascript/jquery-2.1.4.min.js"></script>
