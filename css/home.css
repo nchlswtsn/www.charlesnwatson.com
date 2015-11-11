@@ -15,6 +15,12 @@ body {
 .col-md-12 {
 	text-align: center;
 }
+pre {
+	font-family: 'Avenir', Arial, sans-serif;
+	font-weight: 200;
+	font-size: .5em;
+	color: black;
+}
 
 /*HEADER TITLE CONTENT*/
 
@@ -30,7 +36,6 @@ body {
 
 #links {
 	text-align: center;
-	/*background: linear-gradient(transparent, white)*/
 }
 #links a {
 	font-family: 'Avenir', Arial, sans-serif;
@@ -106,9 +111,10 @@ body {
 	box-shadow: 10px 10px 10px black;
 }
 .projectLink {
-	background-color: white;
+	background-color: rgb(235, 235, 235);
 	padding: 5%;
 	width: 100%;
+	border-top: 1px solid black;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
@@ -132,6 +138,19 @@ body {
 
 /*MIDDLE PANEL FOR EDUCATION INFO*/
 
+#education h4 {
+	text-align: center;
+}
+#education small {
+	text-align: center;
+}
+/*#education pre {
+}*/
+#education span {
+	text-align: left;
+	margin: auto 10%;
+
+}
 .row.midPanel {
 	margin-top: 100px;
 	background-color: #242A31;
