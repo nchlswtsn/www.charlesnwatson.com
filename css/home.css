@@ -138,6 +138,9 @@ pre {
 
 /*MIDDLE PANEL FOR EDUCATION INFO*/
 
+#education {
+	font-family: 'Avenir', Arial, sans-serif;
+}
 #education h2 {
 	margin-top: 60px;
 	text-align: center;
@@ -182,7 +185,7 @@ pre {
 
 .row.bottomPanel {
 	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	background-color: #242A31;
 	border-top: 3px solid rgb(74, 74, 74);
 }
@@ -202,6 +205,14 @@ pre {
 }
 #employment span {
 	font-weight: normal;
+}
+a.btn {
+	background-color: #252532;
+	border: black;
+}
+.resumeButton {
+	text-align: center;
+	margin-bottom: 5px;
 }
 
 /*jQuery Specific Classes*/
