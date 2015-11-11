@@ -148,7 +148,7 @@ pre {
 #education span {
 	font-weight: normal;
 }
-#education .topH2 {
+#education .toph2 {
 	margin-top: 0;
 }
 .row .school hr {
@@ -196,9 +196,12 @@ pre {
 #employment {
 	margin-top: 5%;
 	margin-bottom: 10%;
-	font-size: 2.5em;
+	font-size: 2em;
 	font-weight: 100;
 	color: white;
+}
+#employment span {
+	font-weight: normal;
 }
 
 /*jQuery Specific Classes*/
