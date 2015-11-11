@@ -138,18 +138,24 @@ pre {
 
 /*MIDDLE PANEL FOR EDUCATION INFO*/
 
-#education h4 {
+#education h2 {
+	margin-top: 60px;
 	text-align: center;
 }
 #education small {
 	text-align: center;
 }
-/*#education pre {
-}*/
 #education span {
-	text-align: left;
-	margin: auto 10%;
-
+	font-weight: normal;
+}
+#education .topH2 {
+	margin-top: 0;
+}
+.row .school hr {
+	margin-top: 70px;
+}
+.topicHead {
+	margin-top: 60px;
 }
 .row.midPanel {
 	margin-top: 100px;
@@ -167,7 +173,7 @@ pre {
 #education {
 	margin-top: 5%;
 	margin-bottom: 10%;
-	font-size: 2.5em;
+	font-size: 2em;
 	font-weight: 100;
 	color: white;
 }
