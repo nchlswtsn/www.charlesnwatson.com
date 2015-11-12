@@ -29,7 +29,7 @@
               <a target="_blank" href="http://www.twitter.com/_CharlesWatson">Twitter</a>
             </div>
             <div class="col-md-2">
-              <a target="_blank" data-toggle="modal" data-target="#contactModal">Contact Info</a>
+              <a data-toggle="modal" data-target="#contactModal">Contact Info</a>
             </div>
             <div class="col-md-2">
               <a target="_blank" href="https://www.linkedin.com/in/watsoncn">Linkedin</a>
@@ -295,11 +295,11 @@
         </div>
       </div>
       <div class="resumeButton">
-        <a class="btn btn-primary" href="/pdf/resume.pdf" download="charlesWatsonResume">Downloadable Résumé</a>
+        <a class="btn btn-primary" data-toggle="modal" data-target="#pdfModal">View Downloadable Resume</a>
       </div>
     </div>
 
-    <!-- Modal -->
+    <!-- Contact Modal -->
 
     <div id="contactModal" class="modal fade" role="dialog">
       <div class="modal-dialog">
@@ -311,6 +311,26 @@
           <div class="modal-body">
             <p>Phone: (415) 944-9856</p>
             <p>Email: charlesnwatson@gmail.com</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PDF RESUME MODAL -->
+
+    <div id="pdfModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Charles Watson - PDF Resume</h4>
+          </div>
+          <div class="modal-body">
+            <embed src="pdf/Resume.pdf" width="550" height="600" type='application/pdf'>
+
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
