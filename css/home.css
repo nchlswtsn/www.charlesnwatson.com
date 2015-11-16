@@ -15,12 +15,6 @@ body {
 .col-md-12 {
 	text-align: center;
 }
-pre {
-	font-family: 'Avenir', Arial, sans-serif;
-	font-weight: 200;
-	font-size: .5em;
-	color: black;
-}
 
 /*HEADER TITLE CONTENT*/
 
@@ -148,9 +142,6 @@ pre {
 #education small {
 	text-align: center;
 }
-#education span {
-	font-weight: normal;
-}
 #education .toph2 {
 	margin-top: 0;
 }
@@ -159,6 +150,16 @@ pre {
 }
 .topicHead {
 	margin-top: 60px;
+	margin-bottom: 0px;
+}
+.topicHead {
+	font-weight: bold;
+}
+.responseText {
+	margin-top: 0px;
+}
+.toph2 {
+	font-weight: bold;
 }
 .row.midPanel {
 	margin-top: 100px;
