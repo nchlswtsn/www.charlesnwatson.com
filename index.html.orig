@@ -60,10 +60,17 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <div id="summary">
+<<<<<<< HEAD
             I am currently a full-stack developer in the San Francisco Bay
             Area. Using the MEAN stack to build personal and client projects,
             I develop everything from small framework modules to full-stack
             web and mobile applications.
+=======
+            I am currently a full-stack developer at Coding House in the
+            San Francisco Bay Area. Using the MEAN stack to build personal
+            and client projects, I develop everything from small framework
+            modules to full-stack web and mobile applications.
+>>>>>>> projects
 
             <br><br>
 
@@ -74,10 +81,16 @@
 
             <br><br>
 
+<<<<<<< HEAD
             When not on my computer building apps, you can usually
             find me at my local skydiving dropzone enjoying blue skies from
             14,000 feet, or, in the colder months buried neck deep in fresh
             powder, skiing the day away.
+=======
+            When I'm not building apps I am usually found at my local skydiving
+            dropzone enjoying blue skies from 14,000 feet or in the colder
+            months am buried neck deep in fresh powerder skiing the day away.
+>>>>>>> projects
           </div>
         </div>
       </div>
@@ -97,27 +110,39 @@
         <div class="project">
           <img src="images/weather.gif" alt="Weather">
           <div class="projectLink">
+<<<<<<< HEAD
+            <a target="_blank" href="http://nchlswtsn.github.io/weather">Weather</a>
+=======
             <a target="_blank" href="http://nchlswtsn.github.io">Calculator</a>
             &nbsp;|&nbsp;
             <a target="_blank" href="https://github.com/nchlswtsn/nchlswtsn.github.io">Github Code</a>
+>>>>>>> projects
           </div>
         </div>
 
         <div class="project">
           <img src="images/webcams.gif" alt="Webcams">
           <div class="projectLink">
+<<<<<<< HEAD
+            <a target="_blank" href="http://nchlswtsn.github.io/webcam">Weather Cams</a>
+=======
             <a target="_blank" href="http://nchlswtsn.github.io/weather">Weather</a>
             &nbsp;|&nbsp;
             <a target="_blank" href="https://github.com/nchlswtsn/weather">Github Code</a>
+>>>>>>> projects
           </div>
         </div>
 
         <div class="project">
           <img src="images/calculator.gif" alt="Calculator">
           <div class="projectLink">
+<<<<<<< HEAD
+            <a target="_blank" href="http://nchlswtsn.github.io">Calculator</a>
+=======
             <a target="_blank" href="http://nchlswtsn.github.io/webcam">Weather Cams</a>
             &nbsp;|&nbsp;
             <a target="_blank" href="https://github.com/nchlswtsn/webcam">Github Code</a>
+>>>>>>> projects
           </div>
         </div>
       </div>
