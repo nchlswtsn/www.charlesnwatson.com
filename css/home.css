@@ -1,3 +1,19 @@
+/*RESPONSIVE*/
+
+/*IPHONE 6 & DOWN*/
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+	#bigName {
+		font-size: 10px !important;
+	}
+}
+
+/*DESKTOP/LAPTOP*/
+
+/*GENERAL*/
 body {
 	background-image: url(../images/trees.jpeg);
 	background-color: #D7DEE2;
@@ -53,10 +69,6 @@ body {
 	width: 150px;
 	height: 150px;
 	z-index: 1;
-}
-.mugShot:hover {
-	transition: transform .5s;
-	transform: scale(2, 2);
 }
 .row.mugShotContainer {
 	margin-top: -60px;
@@ -128,92 +140,6 @@ body {
 .col-md-4 {
 	text-align: center;
 	height: 100%;
-}
-
-/*MIDDLE PANEL FOR EDUCATION INFO*/
-
-#education {
-	font-family: 'Avenir', Arial, sans-serif;
-}
-#education h2 {
-	margin-top: 60px;
-	text-align: center;
-}
-#education small {
-	text-align: center;
-}
-#education .toph2 {
-	margin-top: 0;
-}
-.row .school hr {
-	margin-top: 70px;
-}
-.topicHead {
-	margin-top: 60px;
-	margin-bottom: 0px;
-}
-.topicHead {
-	font-weight: bold;
-}
-.responseText {
-	margin-top: 0px;
-}
-.toph2 {
-	font-weight: bold;
-}
-.row.midPanel {
-	margin-top: 100px;
-	background-color: #242A31;
-	border-top: 3px solid rgb(74, 74, 74);
-}
-.midPanel p {
-	margin-top: 0;
-	text-align: center;
-	font-family: 'Avenir', Arial, sans-serif;
-	color: white;
-	font-size: 5em;
-	font-weight: 100;
-}
-#education {
-	margin-top: 5%;
-	margin-bottom: 10%;
-	font-size: 2em;
-	font-weight: 100;
-	color: white;
-}
-
-/*BOTTOM PANEL FOR EMPLOYMENT INFO*/
-
-.row.bottomPanel {
-	margin-top: 100px;
-	margin-bottom: 50px;
-	background-color: #242A31;
-	border-top: 3px solid rgb(74, 74, 74);
-}
-.bottomPanel p {
-	text-align: center;
-	font-family: 'Avenir', Arial, sans-serif;
-	color: white;
-	font-size: 5em;
-	font-weight: 100;
-}
-#employment {
-	margin-top: 5%;
-	margin-bottom: 10%;
-	font-size: 2em;
-	font-weight: 100;
-	color: white;
-}
-#employment span {
-	font-weight: normal;
-}
-a.btn {
-	background-color: #252532;
-	border: black;
-}
-.resumeButton {
-	text-align: center;
-	margin-bottom: 5px;
 }
 
 /*jQuery Specific Classes*/
